@@ -1,0 +1,177 @@
+@font-face {
+    font-family: Gilroy;
+    src: url(Fonts/Gilroy-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Gilroy';
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+}
+
+html , body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(26, 25, 25);
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+.navbar-brand span {
+    color: #2CD3E1;
+}
+
+header {
+    z-index: 999;
+    width: 100vw;
+    position: fixed;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+}
+.header-content {
+    height: 100vh;
+    position: relative;
+}
+
+.header-content div:nth-child(1) {
+    padding: 50px;
+    height: 100%;
+}
+
+.header-content div:nth-child(1) h1 {
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    font-size: 4vmax;
+    margin-bottom: 30px;
+}
+
+.header-content .btn {
+    width: 30%;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+
+.header-img-b {
+    height: 100%;
+}
+
+.header-img-b img{
+    width: 100%;
+    height: 100%;
+}
+
+.header-content h1 span, span.special {
+    color: #2CD3E1;
+}
+
+.header-content p, p.lorem {
+    color: #666;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.page2 img {
+    width: 30vmax;
+}
+
+.companies-b {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding: 0 20px;
+}
+
+.companies-b img {
+    width: 80%;
+}
+
+.feature-img {
+    width: 100px;
+    border-radius: 30px;
+}
+
+img.pg3 {
+    width: 100%;
+}
+
+.featurette-heading {
+    font-weight: 700;
+}
+
+.page4 {
+    height: 60vh;
+    position: relative;
+}
+
+.pg4-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    filter: brightness(50%);
+    position: absolute;
+}
+
+.pg4-content {
+    z-index: 3;
+    background-color: #2221211f;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pg4-content .btn {
+    width: 20%;
+    margin: 1rem auto;
+}
+@media (max-width:992px) {
+    .navbar-brand {
+        margin-right: 0 !important;
+    }
+    header a.mb-2 {
+        margin-bottom: 0 !important;
+    }
+    header {
+        padding: 0.6rem !important;
+    }
+.nav, .text-end {
+    display: none;
+}
+.header-content div:nth-child(1) {
+    align-items: center;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.header-content div:nth-child(1) p {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-content {
+    flex-direction: column;
+}
+
+.header-img-b img {
+    height: 60%;
+    object-fit: cover;
+}
+}
