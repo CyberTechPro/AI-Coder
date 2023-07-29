@@ -17,6 +17,12 @@ html, body {
     scroll-behavior: smooth;
     overflow-x: hidden;
     background-color: rgb(26, 25, 25);
+    scroll-behavior: smooth;
+}
+
+header {
+    position: absolute;
+    z-index: 99;
 }
 
 .header {
